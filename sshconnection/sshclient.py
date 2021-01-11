@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 import paramiko
 private_key = paramiko.RSAKey.from_private_key_file("D:\Python_Workspace\id_rsa")
 ssh = paramiko.SSHClient()
